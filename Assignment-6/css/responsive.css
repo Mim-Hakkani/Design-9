@@ -1,0 +1,206 @@
+@media(max-width: 1200px){
+	.logo {}
+	.logo img{
+
+	}
+	.footer-top{
+		height: 700px;
+	}
+.header-top{
+ top:0px;
+margin: 0 auto;
+height: 800px;
+		} 
+
+.forem-section {
+   
+    top: 70px;
+    }
+.icon {
+ margin-top: 0px; 
+}
+.work-text p{   
+
+	width: 80%;
+    margin: 20px auto;
+}
+
+
+}
+
+@media(max-width: 992px){
+
+.fixed-text {
+
+	left: -89px;
+
+}
+.fixed-text p {
+	
+	width: 77%;
+	margin: 0 auto;
+	font-size: 23px;
+	
+}
+.portfolio img,.port img{
+display: block;
+margin: auto;
+margin-bottom: 10px;}
+
+.work-text p{   
+
+	width: 100%;
+    margin-bottom: 15px;
+}
+
+.forem-section{
+top: 150px;
+
+}
+.forem-section input[type="text"]{
+	padding: 13px;
+    width: 40%;
+    float: none;
+    border-radius: 6px;
+    border: none;
+   background: #FFFDDF;
+}
+textarea{
+	height: 200px;
+	width: 70%;
+	margin-top: 40px;
+	
+}
+
+}
+
+
+@media(max-width: 768px){
+
+	.logo img{
+		display: block;
+		margin: auto;
+		height: 26px;
+	}
+	.work-text p{   
+
+	width: 100%;
+    margin-bottom: 15px;
+    text-align: justify;
+   }
+.text-right {
+    text-align: center !important;
+}
+.forem-section{
+top: 0px;
+
+}
+.forem-section input[type="text"]{
+
+    width: 70%;
+    float: none;
+
+   display: block;
+   
+}
+textarea{
+	height: 200px;
+	width: 70%;
+	margin-top: 40px;
+	
+}
+   footer p{
+   	float: none;
+   	text-align: center;
+   	display: block;
+   	text-align: center!important;
+   }
+.fixed-text {
+width: 100%;
+left: 24px;
+top: 0;
+
+}   
+
+
+.fixed-text h1 {
+	text-align: center;
+	font-size: 41px;
+	font-weight: 700;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.fixed-text p {
+	width: 100%;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+}
+
+
+}
+
+@media(max-width: 572px){
+	.fixed-text {
+width: 100%;
+left: 24px;
+top: 0;
+
+}
+.fixed-text h1 {
+font-size: 25px;
+text-align: left;
+}
+.fixed-text p {
+	width: 100%;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+}
+.btn{
+	padding: 5px 50px!important;
+	float: left;
+}
+.forem-section input[type="text"]{
+	padding: 13px;
+    width: 50%;
+    float: none;
+    border-radius: 6px;
+    border: none;
+   background: #FFFDDF;
+   display: block;
+   margin-bottom: 10px;
+}
+textarea{
+	height: 200px;
+	width: 50%;
+	margin-top: 40px;
+	
+}
+   footer p{
+   	float: none;
+   	text-align: center;
+   	display: block;
+   	text-align: center!important;
+   }
+   .work-text{}
+   .work-text p{   
+
+	width: 80%;
+    margin: 20px auto;
+}
+
+}
+
+@media(min-width: 571px){
+
+   .work-text p{   
+
+	width: 80%;
+    margin: 20px auto;
+}
+.work-text{}
+.work-text h3{}
+
+
+}

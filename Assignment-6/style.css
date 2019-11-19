@@ -1,0 +1,192 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: First Photos
+	Theme URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Golam Hakkni
+	Author URI: mim.cse32@gmail.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0.1
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap');
+body, p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+
+}
+
+/**************** 2. Header Area ********/
+.header-top{
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 850px;
+	background-attachment: fixed;
+	position: relative;
+	
+}
+.header{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(57, 62, 68, 0.8),rgba(57, 62, 68, 0.8));
+	position: relative;
+}
+.fixed-text{
+	width: 967px;
+	position: absolute;
+	top: 47px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin:100px auto;
+	height:auto;
+}
+.fixed-text h1 {
+    text-align: center;
+    font-size: 59px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.fixed-text p {
+    color: #FFF;
+    width: 82%;
+    margin: 0 auto;
+    font-size: 27px;
+    line-height: 40px;
+}
+.fixed-text a {
+    text-align: center;
+    margin: 0 auto;
+    /* width: 0; */
+    display: block;
+    width: 179px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 13px 27px;
+    border-radius: 11px;
+    margin-top: 49px;
+}
+.fixed-text a:hover{}
+.icon{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    padding-top: 6px;
+    /* background-color: white; */
+    font-size: 28px;
+    text-align: center;
+    margin-top: 89px;
+}
+
+/* Working Area Starting  */
+.work-area{
+	margin: 50px 0px;
+}
+.work-text{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.work-text h3{
+	text-transform: uppercase;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 0px;
+}
+.work-text p{   
+
+	width: 60%;
+    margin: 20px auto;
+}
+.Team-area{}
+.port img {
+	margin:20px 0px;
+	height: 280px;
+	width: 230px;
+	transition: 1s;
+}
+.portfolio img{
+	margin:20px 0px;
+	
+}
+.port h4{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0px;
+}
+.port p{
+	text-align: justify;
+	margin-bottom: 15px;
+}
+.port img:hover{
+	transform: scale(1.1);
+}
+.footer-top{
+	background-image: url(images/footer-img.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 900px;
+	position: relative;
+	background-attachment: fixed;
+
+}
+.forem-section{
+position: absolute;
+height: 400px;
+width: 967px;
+top: 190px;
+left: 0;
+bottom: 0;
+right: 0;
+margin:100px auto;
+
+}
+.forem-section input[type="text"]{
+	padding: 13px;
+    width: 47%;
+    /* display: block; */
+    border-radius: 6px;
+    border: none;
+    background: #FFFDDF;
+    float: none;
+}
+textarea{
+	height: 200px;
+	width: 100%;
+	margin-top: 40px;
+	padding: 15px;
+	border-radius: 10px;
+	background: #FFFDDF;
+}
+footer{
+	background-color: #414241;
+	color: #FFFDDF;
+	padding: 15px 0px;
+}
+.social a{}
